@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import io
+import plotly as px
 
 from parser.bank_parser import BankParser
 from utils.categorizer import TransactionCategorizer
